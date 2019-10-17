@@ -1,0 +1,32 @@
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\usepackage{lastpage}
+\name{Jens}{Hegner Stærmose}
+\tagline{BSc in Egnineering (Software) | Developer at Netcompany}
+\photo{2.5cm}{jens}
+\socialinfo{
+	\linkedin{jens-staermose}
+	\github{hutli}\\
+	\smartphone{+45 20 11 26 74}
+	\email{jens@staermose.com}\\
+	\address{Mariane Thomsens Gade 3. 8., Lej 3, 8000 Aarhus, Denmark}
+}
+
+\begin{document}
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\today}} % \selectlanguage{english}\today
+		{\textsc{Jens Hegner Stærmose - CV}}
+		{\thepage\ of \pageref{LastPage}}
+
+	\input{section_headline}
+	\input{section_competences}				% Section compétence
+	\input{section_experience_short}		% Section expérience
+	\input{section_langues}					% Section langues
+	\input{section_scolarite}				% Section scholarité
+	\input{section_extra_curricular}		% Section intérêts
+	\input{section_projets}
+	\input{section_references} 				% Section références
+
+
+\end{document}
